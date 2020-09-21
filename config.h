@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
-static const char *user  = "nobody";
-static const char *group = "nobody";
+static const char *user  = "victor";
+static const char *group = "wheel";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#000000",   /* after initialization */
@@ -9,7 +9,7 @@ static const char *colorname[NUMCOLS] = {
 };
 
 /* lock screen opacity */
-static const float alpha = 0.5;
+static const float alpha = 0.3;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
@@ -21,4 +21,5 @@ static const char * message = "Enter password to unlock";
 static const char * text_color = "#abb2bf";
 
 /* text size (must be a valid size) */
-static const char * text_size = "fixed";
+// static const char * text_size = "fixed";
+static const char * text_size = "10x20";
