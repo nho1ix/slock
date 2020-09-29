@@ -1,4 +1,4 @@
-# slock - simple screen locker
+# slock - simple screen locker <img alt="Visits" align="right" src="https://badges.pufler.dev/visits/nho1ix/slock"/>
 
 simple screen locker utility for X. 
 
